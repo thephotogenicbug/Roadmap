@@ -4,11 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
-      referrerpolicy="no-referrer"
-    />
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.js"
       integrity="sha512-J7uKR69aZGGGVlt2wkk/bG6XKOsiRE35PE/vU+aau44g3f5bQqGoW7tKe4LKhVI57etFJOYwy/F/vCYTweELIw=="
@@ -31,147 +26,188 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="sass/styles.css" />
+    <link rel="stylesheet" href="public/css/style.css" />
     <title>Roadmap</title>
   </head>
   <body>
-
-      <section class="   bg-gradient-to-r from-[#8c0b4e]  to-[#4d0f58] px-10 py-10">
-        <div class=" flex flex-row justify-between">
-            <div>1</div>
+    <section
+      class="bg-gradient-to-r from-[#8c0b4e] to-[#4d0f58] px-10 py-10 overflow-hidden"
+    >
+      <section className=" container mx-auto ">
+        <div class="flex flex-col md:flex-row  justify-between  items-center">
+          <div class="flex flex-col  md:items-start -mt-[200px]">
             <div>
-                <div
-                  className="orbit   p-[60px] rounded-full   mt-[100px] md:mr-[150px] mb-[200px] md:[0px]"
-                  data-aos="fade-left"
-                >
-                  <div className="center-image  absolute   -top-[80px]  md:-top-10 ">
-                    <img src={MetaNuva} className="" />
-                    <img src={MetaNuva} className="" />
-                    <div className=" text-center absolute top-[180px] md:top-[250px] ">
-                      <h5 className=" font-bold text-[20px] text-white ">
-                        360° Echosystem
-                      </h5>
-                      <h5 className=" font-light text-[15px] text-white ">
-                        Creating Value for Nuva Token
-                      </h5>
-                      <h5 className=" font-light text-[13px] text-white ">
-                        Powered by Meta Nuva
-                      </h5>
-                    </div>
-                  </div>
-                  <div>
-                    <ul className="  ">
-                      <li className="   ">
-                        <img
-                          src="https://nuvalearn.com/static/media/nuvabot.90bd4a2110f7aea3e723.png"
-                          className=" object-contain "
-                          loading="lazy"
-                        />
-                   
-                      </li>
-                      <li>
-                        <img
-                          src={NuvaExchange}
-                          className=" object-contain "
-                          loading="lazy"
-                        />
-                       
-                      </li>
-                      <li>
-                        <img
-                          src={NuvaFoundation}
-                          className=" object-contain "
-                          loading="lazy"
-                        />
-                       
-                      </li>
-                      <li>
-                        <img
-                          src={NuvaGames}
-                          className=" object-contain "
-                          loading="lazy"
-                        />
-                       
-                      </li>
-                      <li>
-                        <img
-                          src={NuvaLearn}
-                          className=" object-contain "
-                          loading="lazy"
-                        />
-                      
-                      </li>
-                      <li>
-                        <img
-                          src={NuvaNFT}
-                          className=" object-contain "
-                          loading="lazy"
-                        />
-                      
-                      </li>
-                      <li>
-                        <img
-                          src={NuvaPay}
-                          className=" object-contain "
-                          loading="lazy"
-                        />
-                      
-                      </li>
-                      <li>
-                        <img
-                          src={NuvaSwap}
-                          className=" object-contain "
-                          loading="lazy"
-                        />
-                     
-                      </li>
-                      <li>
-                        <img
-                          src={NuvaToken}
-                          className=" object-contain "
-                          loading="lazy"
-                        />
-                      
-                      </li>
-                      <li>
-                        <img
-                          src={NuvaWellness}
-                          className=" object-contain "
-                          loading="lazy"
-                        />
-                       
-                      </li>
-                      <li>
-                        <img
-                          src={NuvaCompare}
-                          className=" object-contain "
-                          loading="lazy"
-                        />
-                      
-                      </li>
-                      <li>
-                        <img
-                          src={Defi}
-                          className=" object-contain "
-                          loading="lazy"
-                        />
-                      
-                      </li>
-                      <li>
-                        <img
-                          src={NuvaMerch}
-                          className=" object-contain "
-                          loading="lazy"
-                        />
-                      
-                      </li>
-                    </ul>
+              <h1 class="text-[50px] text-white">About Us</h1>
+            </div>
+            <div class="md:w-[800px] w-full">
+              <p class="text-white font-[18px] mb-5 font-bold">
+                We are a globally diverse team of visionaries with vast
+                experience in the marketing, education, blockchain, fintech and
+                financial industries. With collective experience of 200+ years,
+                we excel in innovation and disruption in our respective
+                industries and are committed to promoting equality in all we do.
+              </p>
+              <p class="text-white font-[18px] mb-5 font-bold">Our aim is simple.</p>
+              <p class="text-white font-[18px] font-bold mb-5">
+                To revolutionise the payment solution systems that the world is
+                using today, whilst providing longevity, transparency and
+                delivering results that are sustainable. Adhering to our values,
+                morals and ethics are our ultimate priority.
+              </p>
+              <p class="text-white font-[18px] font-bold">
+                In short, if you engage with any part of our ecosystem we are
+                committed providing a safer, more stable and brighter tomorrow.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div
+              class="orbit p-[60px] rounded-full mt-[200px] md:mr-[150px] bg-orange mb-[200px] md:[0px]"
+            >
+              <div class="center-image absolute -top-[80px] md:-top-10">
+                <img
+                  src="https://nuvalearn.com/static/media/mtnuva-med.27562a94820ab2bc579c.png"
+                  alt=""
+                />
+                <img
+                  src="https://nuvalearn.com/static/media/mtnuva-med.27562a94820ab2bc579c.png"
+                  alt=""
+                />
+                <div>
+                  <div class="text-center absolute top-[180px] md:top-[250px]">
+                    <h1 class="text-[20px] text-white">360° Echosystem</h1>
+                    <h1 class="text-[15px] text-white">
+                      Creating Value for Nuva Token
+                    </h1>
+                    <h1 class="text-[13px] text-white">Powered by Meta Nuva</h1>
                   </div>
                 </div>
               </div>
+              <ul>
+                <li>
+                  <div>
+                    <img
+                      src="https://nuvalearn.com/static/media/nuvabot.90bd4a2110f7aea3e723.png"
+                      class="object-contain"
+                      alt=""
+                    />
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      src="https://nuvalearn.com/static/media/nuvaexchange.a240de691152b1bbbc45.png"
+                      class="object-contain"
+                      alt=""
+                    />
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      src="https://nuvalearn.com/static/media/nuvafoundation.dba18be4f34008fbeb2d.png"
+                      class="object-contain"
+                      alt=""
+                    />
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      src="https://nuvalearn.com/static/media/nuvagames.a5c2828927d3551d1d8b.png"
+                      class="object-contain"
+                      alt=""
+                    />
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      src="https://nuvalearn.com/static/media/nuvalearn.d34e6880eaef285dbc36.png"
+                      class="object-contain"
+                      alt=""
+                    />
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      src="https://nuvalearn.com/static/media/nuvanft.231e84fb44c3a8dcee40.png"
+                      class="object-contain"
+                      alt=""
+                    />
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      src="https://nuvalearn.com/static/media/nuvapay.a69b3ae01c6559cd7115.png"
+                      class="object-contain"
+                      alt=""
+                    />
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      src="https://nuvalearn.com/static/media/nuvaswap.969e51989d6f361fab2e.png"
+                      class="object-contain"
+                      alt=""
+                    />
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      src="https://nuvalearn.com/static/media/nuvatoken.d5236d1ef9f3e0c37796.png"
+                      class="object-contain"
+                      alt=""
+                    />
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      src="https://nuvalearn.com/static/media/nuvawellness.6c10a9c0f7709fdb8f04.png"
+                      class="object-contain"
+                      alt=""
+                    />
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      src="https://nuvalearn.com/static/media/nuvacompare.eea2f3590fa6d5a79af9.png"
+                      class="object-contain"
+                      alt=""
+                    />
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <img
+                      src="https://nuvalearn.com/static/media/nuvawallet.04888167564553b0228e.png"
+                      class="object-contain"
+                      alt=""
+                    />
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <img
+                      src="https://nuvalearn.com/static/media/nuvamerch.37435afbb8a10c280137.png"
+                      class="object-contain"
+                      alt=""
+                    />
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
-  
+    </section>
   </body>
   <!-- Swiper JS -->
   <!--Uncomment this line-->
