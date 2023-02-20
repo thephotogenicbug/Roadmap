@@ -9,12 +9,11 @@
 }
 
 .slide-container {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   padding: 40px 0;
 }
 .slide-content {
-  
   margin: 0 40px;
 }
 /* .card{
@@ -39,7 +38,7 @@
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #4070f4;
+  background-color: #0ef540;
   border-radius: 25px 25px 0 25px;
 }
 .overlay::before,
@@ -50,7 +49,7 @@
   bottom: -40px;
   height: 40px;
   width: 40px;
-  background-color: #4070f4;
+  background-color: #0ef540;
 }
 .overlay::after {
   border-radius: 0 25px 0 0;
@@ -69,7 +68,7 @@
   width: 100%;
   object-fit: cover;
   border-radius: 50%;
-  border: 4px solid #4070f4;
+  background-color: #0ef540;
 }
 .name {
   font-size: 18px;
@@ -86,41 +85,45 @@
   font-size: 16px;
   color: #fff;
   padding: 8px 16px;
-  background-color: #4070f4;
+  background-color: #0ef540;
   border-radius: 6px;
   margin: 14px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 .button:hover {
-  background: #265df2;
+  background-color: #0ef540;
 }
 
 .swiper-navBtn {
-  color: #6e93f7;
+  color: #15803d;
   transition: color 0.3s ease;
 }
 .swiper-navBtn:hover {
-  color: #4070f4;
+  color: #86efac;
 }
 .swiper-navBtn::before,
 .swiper-navBtn::after {
   font-size: 35px;
 }
 .swiper-button-next {
-   position: absolute;
-   background-color: orange;
-   top: 10px;
+  position: absolute;
+  /* background-color: orange; */
+  top: 20px;
+  right: 600px;
 }
 .swiper-button-prev {
-  left: 0;
+  position: absolute;
+  /* background-color: orange; */
+  top: 20px;
+  left: 600px;
 }
 .swiper-pagination-bullet {
-  background-color: #6e93f7;
+  background-color: #86efac;
   opacity: 1;
 }
 .swiper-pagination-bullet-active {
-  background-color: #4070f4;
+  background-color: #15803d;
 }
 
 @media screen and (max-width: 768px) {
@@ -132,7 +135,6 @@
   }
 }
 
-
-.gradient{
+.gradient {
   background-color: orange;
 }
